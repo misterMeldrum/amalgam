@@ -2,6 +2,7 @@
 
 import os
 import sys
+from subcode import *
 
 print("Hello, World!")
 
@@ -21,3 +22,6 @@ b = a[0]
 print b
 
 print("Lets make this messy!!!")
+
+printUser( os.environ["USER"])
+printHome( os.environ["HOME"])
