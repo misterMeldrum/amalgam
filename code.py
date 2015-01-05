@@ -4,17 +4,16 @@ import os
 import sys
 
 print("Hello, World!")
+
 print os.environ["USER"]
-<<<<<<< HEAD
-print sys.prefix
-=======
 print os.environ["HOME"]
+
+print sys.prefix
 
 x = 1
 y = 2
 
 print x + y
->>>>>>> master
 
 a = [ 1, 2, 3 ]
 print a[1]
